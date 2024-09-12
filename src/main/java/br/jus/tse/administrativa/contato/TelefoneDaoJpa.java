@@ -9,7 +9,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-public class TelefoneDaoJpa implements TelefoneDao {
+class TelefoneDaoJpa implements TelefoneDao {
 
     private EntityManager em;
     private static final Logger LOGGER = LoggerFactory.getLogger(TelefoneDaoJpa.class);
