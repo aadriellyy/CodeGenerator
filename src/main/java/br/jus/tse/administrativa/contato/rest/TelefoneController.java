@@ -32,8 +32,20 @@ public class TelefoneController {
     }
 
     @GetMapping(value="/telefone", produces = {MediaType.APPLICATION_JSON_VALUE})
-    public ResponseEntity<Telefone> getTelefone(@RequestParam("id") Long id){
+    public Optional<Telefone> getTelefone(@RequestParam("id") Long id){
         Optional<Telefone> telefone = telefoneService.buscarTelefone(id);
+        return telefone;
+    }
+
+    @PatchMapping(value="/atualizar-telefone", consumes = {MediaType.APPLICATION_JSON_VALUE}, produces = {MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<?> atualizarTelefone(@RequestBody Telefone telefone){
+        telefoneService.regravarTelefone(telefone);
+        return ResponseEntity.status(HttpStatus.OK).body(null);
+    }
+
+    @DeleteMapping(value = "/deletar-telefone", consumes = {MediaType.APPLICATION_JSON_VALUE}, produces = {MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<?> deletarTelefone(@RequestBody Telefone telefone){
+        telefoneService.removerTelefone(telefone);
         return ResponseEntity.status(HttpStatus.OK).body(null);
     }
 

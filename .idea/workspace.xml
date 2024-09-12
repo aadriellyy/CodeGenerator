@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fcbde037-b732-4864-908a-b80992fb4f3c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/contatos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/EmailDaoJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/EnderecoDaoJpa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/ListaContatosService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/ContatoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/ContatoDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/TelefoneController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/TelefoneDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/TelefoneDaoJpa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/TelefoneDaoJpa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/ListaContatosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/ListaContatosService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/ContatoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/ContatoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/TelefoneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/TelefoneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/TelefoneDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/jus/tse/administrativa/contato/rest/TelefoneDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +90,7 @@
       <updated>1725649601053</updated>
       <workItem from="1725649603823" duration="745000" />
       <workItem from="1725995990571" duration="3000" />
-      <workItem from="1726161454371" duration="5904000" />
+      <workItem from="1726161454371" duration="8246000" />
     </task>
     <servers />
   </component>

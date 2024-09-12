@@ -8,6 +8,15 @@ public class TelefoneDto {
     private String telefone;
     private ContatoPessoal dono;
 
+    @Override
+    public String toString() {
+        return "TelefoneDto{" +
+                "id=" + id +
+                ", telefone='" + telefone + '\'' +
+                ", dono=" + dono +
+                '}';
+    }
+
     public Long getId() {
         return id;
     }

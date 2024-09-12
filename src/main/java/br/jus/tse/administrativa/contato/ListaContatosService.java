@@ -40,6 +40,11 @@ public class ListaContatosService {
     }
 
     @Transactional
+    public void excluirContato(ContatoPessoal contato){
+        this.contatoDao.apagar(contato);
+    }
+
+    @Transactional
     public void adicionarTelefone(Telefone telefone) {
         this.telefoneDao.gravar(telefone);
     }
@@ -52,6 +57,16 @@ public class ListaContatosService {
     @Transactional
     public Optional<Telefone> buscarTelefone(Long id){
         return this.telefoneDao.recuperarPorId(id);
+    }
+
+    @Transactional
+    public void removerTelefone(Telefone telefone) {
+        this.telefoneDao.apagar(telefone);
+    }
+
+    @Transactional
+    public void regravarTelefone(Telefone telefone) {
+        this.telefoneDao.regravar(telefone);
     }
 
 }

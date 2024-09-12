@@ -37,4 +37,16 @@ public class ContatoController {
         return ResponseEntity.status(HttpStatus.OK).body(contatos);
     }
 
+    @PatchMapping(value="atualizar-contato", consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
+    public ResponseEntity<?> atualizarContato(@RequestBody ContatoPessoal contato){
+        contatoService.salvarContato(contato);
+        return ResponseEntity.status(HttpStatus.OK).body(null);
+    }
+
+    @DeleteMapping(value="/deletar-contato", consumes = {MediaType.APPLICATION_JSON_VALUE})
+    public ResponseEntity<?> deletarContato(@RequestBody ContatoPessoal contato){
+        this.contatoService.excluirContato(contato);
+        return ResponseEntity.status(HttpStatus.OK).body(null);
+    }
+
 }
